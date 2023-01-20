@@ -1,0 +1,96 @@
+h1{
+    background-color: darkslategray;
+    padding: 20px;
+    color: white;
+}
+p{
+    background-color: blueviolet;
+    padding: 5px;
+    color: white;
+}
+
+.aqua{  
+    background-color: aqua;
+    border: 3px solid black;
+    overflow: auto;
+    margin: 10px;
+    font-family: fantasy;
+    font-size: 30px;
+    /* width: 100px;
+    height: 100px; */
+}
+
+ul.white li{
+    background-color: blueviolet;
+    padding: 10px;
+    color: white;
+    margin: 5px;
+}
+
+input[type="text"]{
+    width: 20%; box-sizing: border-box;
+    border: 2px solid #ccc; border-radius: 4px;
+    font-size: 16px; background-color: #ffffff;
+    padding: 12px 20px 12px 40px;
+}
+input[type="password"]{
+    width: 20%; box-sizing: border-box;
+    border: 2px solid #ccc; border-radius: 4px;
+    font-size: 16px; background-color: #ffffff;
+    padding: 12px 20px 12px 40px;
+}
+
+button, select #id{
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    margin: 5px;
+    border: none;
+    background-color: darkgrey;
+    text-align: center;
+}
+
+select{
+    width: 300px;
+    font-size: 20px;
+}
+
+button:hover{
+    opacity: 1;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+table{width: 100%;}
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+tr:hover{
+    background-color: yellow;
+}
+
+li{
+    background-color: bisque;
+    list-style-type: circle;
+    font-size: 20px;
+    margin: 5px;
+}
+/* div{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: lightgreen;
+} */
